@@ -10,6 +10,9 @@
 	<meta name="Keywords" content="Anurag Singh, Portfolio, Front-End Developer, Developer, Programmer, Bhopal, India">
 	<meta property="og:site_name" content="exist08.github.io/portfolio">
 	<meta property="og:title" content="Anurag Singh Portfolio">
+	<meta property="og:description"
+		content="Anurag Singh specializes in HTML, CSS, JS, ReactJS, C++">
+
 	<title>ANURAG - Portfolio</title>
 
 	<link rel="stylesheet" href="style.css">
@@ -29,6 +32,14 @@
 		integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<!-- <script defer src="/libraries/gsap.min.js"></script> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 	<script defer src="script2.js"></script>
 	<script defer src="aosscript.js"></script>
 	<script defer src="script.js"></script>
@@ -92,9 +103,18 @@
 				<img src="./images/iconmonstr-school-16.svg" alt="my-skill-icon">
 			</div>
 			<div class="my-skill-set">
-				<div data-aos="fade-left" class="skill html" id="html-icon"></div>
-				<div data-aos="fade-right" class="skill css" id="css-icon"></div>
-				<div data-aos="zoom-in" class="skill js" id="js-icon"></div>
+				<div data-aos="fade-left" class="skill html" id="html-icon">
+					<i class="fa-brands fa-html5"></i>
+				</div>
+				<div data-aos="fade-right" class="skill css" id="css-icon">
+					<i class="fa-brands fa-css3-alt"></i>
+				</div>
+				<div data-aos="fade-left" class="skill js" id="js-icon">
+					<i class="fa-brands fa-js-square"></i>
+				</div>
+				<div data-aos="fade-right" class="skill react" id="react-icon">
+					<i class="fa-brands fa-react"></i>
+				</div>
 			</div>
 		</div>
 
@@ -106,6 +126,17 @@
 				<img src="./images/iconmonstr-task-1.svg" alt="my-skill-icon">
 			</div>
 			<div class="my-project-set">
+				<div data-aos="zoom-in" class="project series">
+					<div class="imgBox"></div>
+					<h2><a href="https://seriesinfo.netlify.app/" target="_blank">SeriesInfo</a></h2>
+					<p>
+						Find Ratings and details about Movies and Tv Shows
+					</p>
+					<div class="tags">
+						<span class="react">ReactJS</span>
+						<span class="api">API</span>
+					</div>
+				</div>
 				<div data-aos="zoom-in" class="project todo">
 					<div class="imgBox"></div>
 					<h2><a href="https://exist08.github.io/tree3/todo-app-main/" target="_blank">Todo App</a></h2>
@@ -129,18 +160,6 @@
 						<span class="html">HTML</span>
 						<span class="css">CSS</span>
 						<span class="js">JS</span>
-					</div>
-				</div>
-				<div data-aos="zoom-in" class="project lpage">
-					<div class="imgBox"></div>
-					<h2><a href="https://exist08.github.io/tree/clipboard-landing-page-master/" target="_blank">Landing
-							Page</a></h2>
-					<p>Fully Responsive Clipboard
-						Landing Page using Flexbox
-					</p>
-					<div class="tags">
-						<span class="html">HTML</span>
-						<span class="css">CSS</span>
 					</div>
 				</div>
 			</div>
@@ -175,21 +194,24 @@
 									fill="#00A0DC" />
 							</svg>
 						</a></li>
-					<li data-aos="zoom-out-right" data-aos-delay="500" data-aos-offset="50"><a href="https://twitter.com/brizzlerdev">
+					<li data-aos="zoom-out-right" data-aos-delay="500" data-aos-offset="50"><a
+							href="https://twitter.com/brizzlerdev">
 							<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
 								<path
 									d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"
 									fill="#1DA1F2" />
 							</svg>
 						</a></li>
-					<li data-aos="zoom-out-right" data-aos-delay="800" data-aos-offset="50"><a href="https://www.youtube.com/channel/UC6SyWJEZ2JLjkZZ5WMwzsBQ">
+					<li data-aos="zoom-out-right" data-aos-delay="800" data-aos-offset="50"><a
+							href="https://www.youtube.com/channel/UC6SyWJEZ2JLjkZZ5WMwzsBQ">
 							<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
 								<path
 									d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"
 									fill="#FF0000" />
 							</svg>
 						</a></li>
-					<li data-aos="zoom-out-right" data-aos-delay="1100" data-aos-offset="50"><a href="https://www.facebook.com/askanuragsk">
+					<li data-aos="zoom-out-right" data-aos-delay="1100" data-aos-offset="50"><a
+							href="https://www.facebook.com/askanuragsk">
 							<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
 								<path
 									d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"
@@ -201,8 +223,8 @@
 			<div class="bottom">
 				<a href="#">
 					<img src="./images/iconmonstr-upload-10.svg" alt="">
-					<span class="crt">©anuragsingh 2022</span>
 				</a>
+				<span class="crt">©anuragsingh 2022</span>
 			</div>
 		</footer>
 

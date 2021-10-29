@@ -77,16 +77,6 @@ bmenue.addEventListener('click', () => {
     transition: background transform 0.5s ease;`;
 });
 
-const myskills = document.getElementById('myskills')
-myskills.addEventListener('mouseenter', () => {
-    let htmlIcon = document.getElementById('html-icon')
-    let cssIcon = document.getElementById('css-icon')
-    let jsIcon = document.getElementById('js-icon')
-    htmlIcon.style.backgroundImage = 'url(./images/icons8-html-52.svg)'
-    htmlIcon.style.backgroundSize = '120%'
-    cssIcon.style.backgroundImage = 'url(./images/icons8-css32.svg)'
-    jsIcon.style.backgroundImage = 'url(./images/icons8-javascript2.svg)'
-})
 
 
 
